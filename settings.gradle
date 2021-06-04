@@ -1,0 +1,2 @@
+rootProject.name = "android_practice13_map_polygon_polyline"
+include ':app'
