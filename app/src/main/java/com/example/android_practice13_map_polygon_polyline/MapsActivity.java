@@ -34,6 +34,9 @@ import java.util.List;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
+    // create the application as usual we're creating for fetching user location, then just add marker at user location.
+    // then keep adding marker on the long click of map, and draw polygon and polyline as per our need (by implementing that logic inside long click of map method)
+
     private GoogleMap mMap;
     private ActivityMapsBinding binding;
 
